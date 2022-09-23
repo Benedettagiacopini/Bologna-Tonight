@@ -35,10 +35,11 @@ body { background-color: #001d2d !important; }
           line-height: 2em;
           font-size: 1.2em; }
 
-.home-text { margin-right: 120px;
-             margin-left: 120px;
+.home-text { margin-right: 10% !important;
+             margin-left: 10% !important;
              padding-top: 60px;
-             padding-bottom: 60px; }
+             padding-bottom: 60px; 
+             text-align: center;}
 .cit { margin: 120px;
        color: white;
        text-align: center; }
