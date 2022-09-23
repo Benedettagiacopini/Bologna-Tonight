@@ -1,0 +1,81 @@
+body { padding: 0px 0px 0px 0px !important; }
+.navbar { background-color: #001d2d !important; } 
+#homeimg { max-width: 100%; }
+.tab { padding: 15px 15px 15px 15px; }
+.gruppo { margin: 60px 5% !important; }
+.btn { background-color: rgba(255, 255, 255, 0.06) !important;
+       border-color: rgba(255, 255, 255) !important; 
+       color: rgb(255, 255, 255) !important;
+       border-radius: 13px !important;
+       opacity: 1.0;}
+
+.btn:hover { opacity: 0.5; }
+
+body { background-color: #001d2d !important; }
+
+.card-body { background-color: rgb(228, 29, 126) !important; }
+.col { padding: 20px; }
+.card { background-color: rgb(228, 29, 126) !important; 
+        border: none !important;}
+.card-title { color: rgb(255, 255, 255); }
+.card-text { color: rgb(255, 255, 255); }
+
+.jsx-2287095172 { border-radius: 0.25rem !important; }
+
+
+.titoletto { font-family: 'Roboto', sans-serif;
+             color: white;
+             text-align: center;
+             font-weight: bold;
+             padding: 30px; }
+.phome { font-family: 'Roboto', sans-serif;
+          color: white;
+          text-align: center;
+          padding: 0px 40px 0px 0px;
+          line-height: 2em;
+          font-size: 1.2em; }
+
+.home-text { margin-right: 120px;
+             margin-left: 120px;
+             padding-top: 60px;
+             padding-bottom: 60px; }
+.cit { margin: 120px;
+       color: white;
+       text-align: center; }
+.frase-cit { font-style: italic; }
+
+.homecon { background-color: rgb(228, 29, 126);
+       padding-top: 40px;  }
+
+.col-6 { color:white !important;
+         text-align: center !important;
+         margin-bottom: 40px !important;
+         background-color: rgb(228, 29, 126) !important; }
+
+.fa-solid { font-size: 1.5em;
+            padding-bottom: 30px !important;}
+
+section.col-6 p { color: white !important;
+                  font-size: 1em !important; }
+
+section.col-6 a { color: white !important;
+                  text-decoration: none !important; }
+
+.documenti { display: inline-block !important;
+             text-align: center;
+             color: rgba(255, 255, 255, 0.6);
+             background-color: rgb(228, 29, 126); 
+             width: 100%;}
+
+section.documenti a { color: rgb(255, 255, 255, 0.6) !important;
+                  text-decoration: none !important; }
+.link { opacity: 1.0; }
+.link:hover { opacity: 0.5 !important; }
+
+
+.doc { opacity: 0.6; }
+.doc:hover { opacity: 1.0 !important; }
+
+
+
+
