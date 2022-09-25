@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+	<title>Bologna Tonight</title>
+	<link rel="stylesheet" href="css/style.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="description" content="Cosa puoi fare la sera a Bologna, che locali ci sono e che eventi organizzano">
+   <meta name="robots" content="index, follow">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/5148f5bfe9.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5148f5bfe9.js" crossorigin="anonymous"></script>
+</head>
+<body class="container-fluid">
+    <header>
+     <nav class="navbar navbar-expand-lg navbar navbar-dark">
+         <a class="navbar-brand" href="#"><img id="logo" src="img/logo.jpeg" alt="Bologna Tonight logo"></a>
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+           <a class="nav-link active" href="#">HOME<span class="sr-only">(current)</span></a>
+           <a class="nav-link" href="locali.html">LOCALI</a>
+           <a class="nav-link" href="calendario.html">CALENDARIO</a>
+           <a class="nav-link" href="neidintorni.html">NEI DINTORNI</a>
+         </div>
+        </div>
+     </nav>
+     </header>
+     <main>
+        <section class="testo">
+        <h1>DOCUMENTAZIONE</h1>
+        <h2>Project Management Plan</h2>
+        <h3>0. Abstract</h3>
+        <p>Bologna Tonight è un sito semplice e chiaro, che aiuta ad orientarsi nel panorama degli eventi notturni a Bologna. L’obiettivo è quello di dare in un unico sito tutte le informazioni sia sugli eventi che sui locali di Bologna. Grazie al calendario presente sul sito permette all’utente di visualizzare in un’unica pagina sia gli eventi in programma durante tutto il mese che le relative informazioni riguardanti il luogo e la discoteca in cui si svolgono. Si rivolge a ragazzi che frequentano i club notturni, quindi principalmente tra i 16 e i 30 anni.</p>
+        </section>
+        <section class="testo">
+            <h3>1. Benchmarking</h3>
+            <h4>1) Obiettivi</h4>
+            <p>L’obiettivo principale è racchiudere in un solo sito web tutte le informazioni che, attualmente, un utente che vuole sapere che eventi ci sono a Bologna, deve cercarsi tra le varie pagine social o siti web dei locali. Rendendo così più facile reperire le informazioni sugli eventi notturni a Bologna.</p>
+            <h4>2) Target utente</h4>
+            <p>Ragazzi e ragazze tra i 16 e i 30 anni</p>
+            <h4>Competitors</h4>
+            <p>Attualmente non c’è un sito web che oltre a descrivere i locali abbia un calendario aggiornato con tutti gli eventi delle discoteche di Bologna. I siti più simili sono www.inbologna.it e www.zeroeu.it. Il sito “Inbologna” è in generale realizzato con un’impronta poco attuale. Nella sezione “vita notturna” in cui parla delle discoteche di Bologna sono presenti numerosi errori di battitura e di coerenza. Il sito è inoltre poco aggiornato, sono infatti presenti ancora locali che non esistono più.
+            Zeroeu è uno dei magazine online di riferimento per eventi e lifestyle. La pagina dedicata agli eventi notturni è ben realizzata ma non completa, fa vedere solo alcuni degli eventi in programma. Non è inoltre presente una pagina dove vengono elencati e descritti i locali presenti a Bologna.</p>
+        </section>
+        <section class="testo">
+            <h3>2. Struttura e layout</h3>
+            <h4>1) Architettura del sito</h4>
+            <p>Foto 1. Schema ad albero sito web</p>
+            <img src="img/architettura.png" id="foto">
+            <h4>2) Wireframe</h4>
+            <p>Foto 2. Wireframe Homepage</p>
+            <img src="img/wireframe.png" id="foto">
+            <p>Foto 3. Wireframe pagine Locali</p>
+            <img src="img/wireframee.png" id="foto">
+            <p>Foto 4. Wireframe pagina calendario</p>
+            <img src="img/wireframeee.png" id="foto">
+            <h4>3) Look and Feel</h4>
+            <p>Trattandosi di un sito che ruota intorno agli eventi notturni ho scelto come immagine della home page e logo del sito uno sfondo con il cielo stellato, con sopra il nome (rgb 228, 29, 126). Il sito, come il logo, ha uno stile semplice ed essenziale ma ordinato e chiaro. Ho scelto, per dare continuità, di utilizzare per il background della “main section” e la barra di navigazione una tonalità di blu (#001d2d) dell’immagine della home page e del logo. Le pagine del sito dedicate alla descrizione dei locali e al calendario sono strutturate con delle card per rendere più piacevole la lettura e catturare maggiormente l’attenzione. La scelta del colore #001d2d per il background delle pagine, del logo e dell’immagine della home page è stata fatta per rimanere in tema con la notte. Per risaltare sopra al blu e dare energia al sito web ho optato per una tonalità di fucsia (rgb 228, 29, 126) per il nome del sito web, per le card nelle varie pagine e per il piè di pagina. In tutto il sito il testo è in bianco (rgb 255, 255, 255) per riuscire a risaltare sia sul blu (#001d2d) che sul fucsia (rgb 228, 29, 126) con font “Roboto - Sans Serif” per un’estetica chiara e semplice in linea con lo stile del sito.</p>
+        </section>
+        <section class="testo">
+            <h3>3. Linguaggi e strumenti</h3>
+            <h4>1) Linguaggi</h4>
+            <p>HTML, CSS</p>
+            <h4>2) Strumenti</h4>
+            <p>SublimeText come editor;
+               FontAwesome per le icone;
+               Google Fonts per il font;
+               Github per la pubblicazione del sito;
+               Google Analytics per il controllo delle visualizzazioni
+               Vista Create per la creazione del logo e dell’immagine della home page;
+               Elfsight per la creazione widget calendario;
+               Popplet per gli schemi;
+               Bootstrap per la grafica.</p>
+        </section>
+         <section class="testo">
+             <h2>Communication Strategy document</h2>
+             <h3>1. Background</h3>
+             <p>In termini di comunicazione “inbologna”, competitor già analizzato in precedenza, mostra molti limiti. Uno tra questi che risalta maggiormente è la coerenza. Nella sezione “vita notturna”, che è quella che interessa il nostro target utente, le descrizioni delle discoteche hanno spesso fonts diversi, informazioni disposte in diverso ordine in alcuni casi e in altri proprio mancanti. La scelta dei colori non rispecchia il tema trattato, sono colori spenti e che non catturano l’attenzione dell’utente.
+             Zeroeu è invece molto curato a livello grafico con un template responsive e con più fonts che si sposano perfettamente tra loro e alleggeriscono la pagina, che essendo in bianco e nero, potrebbe risultare pesante. Risulta però caotico per l’abbondanza di contenuti in ciascuna pagina, non ben distribuiti e non evidenziati. Per agevolare la ricerca dei contenuti all’utente e rendere più chiaro il contenuto della pagina per me sarebbe importante aggiungere un menu verticale a destra della pagina, per una navigazione contestuale.</p>
+         </section>
+         <section class="testo">
+             <h3>2. Obiettivi comunicativi</h3>
+             <p>L’obiettivo principale è informare sugli eventi notturni che offre Bologna, nel modo più pratico e veloce possibile per l’utente.
+             Riuscire ad invogliare l’utente ad esplorare il sito grazie alla sua semplicità ed essenzialità. 
+             Fidelizzando il più possibile l’utente a tornare a cercare informazioni sui locali e sugli eventi in programma sul nostro sito.</p>
+         </section>
+         <section class="testo">
+            <h3>3. Target audience e messaggio</h3>
+            <p>
+                Informare l’utente sugli eventi in programma a Bologna durante il mese e descrivere i locali che li ospitano. Semplificando la ricerca all’utente, racchiudendo tutte le informazioni a lui necessarie sul nostro sito web. Il target audience si affida al nostro sito per reperire le informazioni, gli orari, i luoghi e gli eventuali cambiamenti di tutti gli eventi a Bologna e dintorni; saremo il suo punto di riferimento per qualsiasi domanda e dubbio. 
+            </p>
+         </section>
+         <section class="testo">
+             <h3>4. Promozione</h3>
+             <p>Ho promosso Bologna Tonight tramite una storia sul mio account personale Instagram e tramite Whatsapp, mandando il link ai miei contatti.</p>
+         </section>
+         <section class="testo">
+             <h3>5. Valutazione dei risultati</h3>
+             <p>Molti degli utenti che hanno visitato il sito web mi hanno contattata sul mio profilo Instagram per informarmi che d’ora in poi utilizzeranno Bologna Tonight per rimanere aggiornati sulle serate in programma a Bologna. Con l’utilizzo di Google Analytics ho monitorato il numero di utenti che ha visitato il sito, il mio obiettivo era raggiungere 50 visite e l’ho raggiunto.</p>
+         </section>
+       </main>
+     </body>
+ </html>
